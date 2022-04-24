@@ -1,10 +1,21 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Card, CardContent } from "@mui/material";
 const LeftBar = () => {
   return (
-    <Box flex={4} bgcolor="skyblue" p={3}>
+    <Box flex={4} p={5}>
       {" "}
-      <Typography variant="h5">LeftSide</Typography>
+      <Typography variant="h4">Hello Everyone, My Name is </Typography>
+      <Typography variant="h3">Suman Malla </Typography>
+      <Box sx={{ width: "20%" }}>
+        <Card>
+          <CardContent>
+            <Typography variant="h5">Developer</Typography>
+          </CardContent>
+          <CardContent>
+            <Typography variant="h5">UI Developer</Typography>
+          </CardContent>
+        </Card>
+      </Box>
     </Box>
   );
 };
