@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.css";
+import Picture from "./profile.png";
 
 const Intro = () => {
   return (
@@ -29,7 +30,10 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="i-right">right</div>
+      <div className="i-right">
+        <div className="i-back"></div>
+        <img src={Picture} alt="profile-pic" className="img" />
+      </div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 .i {
   display: flex;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(242, 242, 219);
 }
 
@@ -13,12 +13,12 @@
 
 .i-right {
   flex: 1;
+  position: relative;
 }
 
 .i-left-wrapper {
   padding: 50px;
   height: 50%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -72,4 +72,21 @@
 .i-description {
   font-size: 18px;
   font-weight: normal;
+  margin-top: 30px;
+}
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
+.i-back {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  height: 100%;
+  width: 112%;
+  background-color: olivedrab;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
