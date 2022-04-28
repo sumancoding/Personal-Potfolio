@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #006466;
+  background: #00296b;
 }
 
 h1,
@@ -15,4 +15,25 @@ p,
 a {
   color: white;
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 13px 33px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: white;
+  color: #00296b;
+  border: 1px solid #00296b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #00296b;
+  color: white;
+  transition: 0.4s;
 }

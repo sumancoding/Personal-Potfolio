@@ -19,8 +19,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #006466;
-  opacity: 0.8;
+  background-color: #0077b6;
+  opacity: 0.6;
 }
 
 .front-pic {
@@ -33,4 +33,29 @@
   top: 50%;
   left: 50%;
   text-align: center;
+}
+
+.front-pic .content h1 {
+  font-size: 4rem;
+  padding: 0.7rem 0 1.6rem;
+}
+
+.front-pic .content p {
+  font-size: 2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+content .btn {
+  margin: 1rem 0.2rem;
+}
+
+@media screen and (max-width: 640px) {
+  .front-pic .content h1 {
+    font-size: 3rem;
+  }
+
+  .front-pic .content p {
+    font-size: 1.5rem;
+  }
 }
