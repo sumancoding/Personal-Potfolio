@@ -1,6 +1,12 @@
 import React from "react";
 import "./Footer.css";
-import { FaHome, FaPhone, FaMailBulk, FaGithub } from "react-icons/fa";
+import {
+  FaHome,
+  FaPhone,
+  FaMailBulk,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,11 +14,14 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <FaHome size={25} style={{ color: "white", marginRight: "2rem" }} />
-            <div>
-              <p>Yo-kylä 10D</p>
-              <p>20540, Turku</p>
-            </div>
+            <h4>
+              {" "}
+              <FaHome
+                size={25}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+              Yo-kylä 10 D, 20540, Turku
+            </h4>
           </div>
           <div className="phone">
             <h4>
@@ -45,6 +54,20 @@ const Footer = () => {
               <a href="  https://github.com/sumancoding">
                 {" "}
                 https://github.com/sumancoding{" "}
+              </a>
+            </h4>
+          </div>
+
+          <div className="linkedin">
+            <h4>
+              {" "}
+              <FaLinkedin
+                size={25}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+              <a href=" https://www.linkedin.com/in/sumanmalla4994/">
+                {" "}
+                https://www.linkedin.com/in/sumanmalla4994/
               </a>
             </h4>
           </div>
