@@ -1,12 +1,12 @@
 import React from "react";
 import "./ProjectImg.css";
+import Work from "./Work";
 
 const ProjectImg = () => {
   return (
     <div className="project-img">
       <div className="heading">
-        <h1>PROJECTS SAMPLE</h1>
-        <p>Here's a glimpse of recent Projects that I've built</p>
+        <Work />
       </div>
     </div>
   );

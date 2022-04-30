@@ -22,10 +22,10 @@ ul {
 }
 
 .btn {
-  padding: 13px 33px;
+  padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background-color: white;
+  background: white;
   color: #00296b;
   border: 1px solid #00296b;
   font-weight: 600;
@@ -35,5 +35,5 @@ ul {
 .btn:hover {
   background-color: #00296b;
   color: white;
-  transition: 0.4s;
+  transition: 0.3s;
 }

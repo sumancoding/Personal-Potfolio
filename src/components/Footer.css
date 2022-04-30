@@ -1,7 +1,8 @@
 .footer {
   width: 100%;
-  padding: 6rem 0;
+  padding: 1rem 0;
   background-color: #00296b;
+  margin-bottom: 0px;
 }
 
 .footer-container {
@@ -9,7 +10,8 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 60px;
+  grid-gap: 40px;
+  margin-bottom: 0px;
 }
 
 .left {
@@ -22,6 +24,7 @@
 
 .location {
   display: flex;
+  margin-bottom: 0.8rem;
 }
 
 .location p {
@@ -36,9 +39,17 @@
   padding: 1rem;
 }
 
+.right h4 {
+  font-size: 1.8rem;
+}
+
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding-bottom: 0.7rem;
+}
+
+.right p {
+  font-size: 1.3rem;
 }
 
 p {

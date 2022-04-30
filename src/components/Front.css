@@ -36,16 +36,18 @@
 }
 
 .front-pic .content h1 {
+  font-weight: bolder;
   font-size: 4rem;
   padding: 0.7rem 0 1.6rem;
-  color: black;
+  color: white;
 }
 
 .front-pic .content p {
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: black;
+  color: whitesmoke;
+  font-weight: bold;
 }
 
 content .btn {
@@ -58,6 +60,6 @@ content .btn {
   }
 
   .front-pic .content p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }

@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const Work = () => {
   return (
     <div className="work-container">
-      <h1 className="project-heading">Projects</h1>
+      <h1 className="project-heading">SOME OF MY RECENT PROJECTS</h1>
       <div className="project-container">
         <div className="project-card">
           <img src={Dashboard} alt="images" />
@@ -26,3 +26,9 @@ const Work = () => {
 };
 
 export default Work;
+
+{
+  /* <NavLink to="url.com" className="btn">
+  View the code
+</NavLink>; */
+}
