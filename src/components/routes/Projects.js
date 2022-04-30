@@ -7,9 +7,7 @@ const Projects = () => {
   return (
     <div>
       <Nav />
-
       <ProjectImg />
-
       <Footer />
     </div>
   );

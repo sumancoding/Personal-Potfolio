@@ -5,8 +5,8 @@ const ProjectImg = () => {
   return (
     <div className="project-img">
       <div className="heading">
-        <h1>This is a Heading</h1>
-        <p>Description</p>
+        <h1>PROJECTS SAMPLE</h1>
+        <p>Here's a glimpse of recent Projects that I've built</p>
       </div>
     </div>
   );

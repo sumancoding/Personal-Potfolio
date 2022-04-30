@@ -1,13 +1,13 @@
 .project-img {
   width: 100%;
   background: #0077b6;
-  height: 80vh;
+  height: 60vh;
   position: relative;
 }
 
 .project-img::before {
   content: "";
-  background: url("https://cdn.pixabay.com/photo/2015/09/17/17/25/code-944499_960_720.jpg");
+  background: url("https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   background-position: center top;
   width: 100%;
@@ -25,4 +25,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.project-img h1 {
+  font-size: 2.5rem;
+}
+
+.project-img p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .project-img h1 {
+    font-size: 2rem;
+  }
 }
